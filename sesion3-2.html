@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento Simple de Divs</title>
+    <style>
+        /* Estilo general para los divs */
+        div {
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+
+        /* Div centrado horizontalmente */
+        .centered {
+            width: 50%;
+            /* Centrado horizontalmente */
+            margin: 0 auto;
+            background-color: green;
+        }
+
+        /* Div alineado a la derecha */
+        .right {
+            width: 200px;
+            /* Alinear a la derecha */
+            margin-left: auto;
+            margin-right: 0;
+            background-color: coral;
+        }
+
+        /* Div en una posición específica usando píxeles */
+        .specific-px {
+            width: 300px;
+            /* Separado 100px desde la izquierda */
+            margin-left: 100px;
+            /* Separado 150px desde la parte superior */
+            margin-top: 150px;
+            background-color: pink;
+        }
+
+        /* Div en una posición específica usando porcentaje */
+        .specific-percent {
+            width: 30%;
+            /* 20% desde la izquierda */
+            margin-left: 20%;
+            /* 30% desde la parte superior */
+            margin-top: 30%;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Div centrado horizontalmente -->
+    <div class="centered">Centrado Horizontalmente</div>
+
+    <!-- Div alineado a la derecha -->
+    <div class="right">Alineado a la Derecha</div>
+
+    <!-- Div en una posición específica usando píxeles -->
+    <div class="specific-px">Posición en píxeles</div>
+
+    <!-- Div en una posición específica usando porcentaje -->
+    <div class="specific-percent">Posición en %</div>
+
+</body>
+
+</html>
